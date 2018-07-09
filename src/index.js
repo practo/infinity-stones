@@ -1,7 +1,7 @@
-import React from "react";
-class Fancy extends React.Component {
-  render() {
-    return <div>This is so Fancy!</div>;
-  }
-}
-export default Fancy;
+import Fancy from './Providers/fancy';
+import PractoNavbar from './Providers/practoNavbar';
+
+module.exports = {
+  Fancy,
+  PractoNavbar
+};
