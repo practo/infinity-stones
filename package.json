@@ -12,23 +12,22 @@
   "author": "Sridhar",
   "license": "ISC",
   "peerDependencies": {
-    "react": "16.3.2",
-    "react-dom": "16.3.2"
+    "react": "15.4.2",
+    "react-dom": "15.4.2"
   },
   "devDependencies": {
-    "babel-cli": "6.24.0",
-    "babel-core": "6.24.0",
-    "babel-loader": "6.4.1",
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.2",
     "babel-plugin-transform-object-assign": "6.22.0",
     "babel-plugin-transform-object-rest-spread": "6.23.0",
     "babel-preset-env": "1.7.0",
     "babel-preset-react": "6.23.0",
-    "react": "16.3.2",
-    "react-dom": "16.3.2",
+    "react": "15.4.2",
+    "react-dom": "15.4.2",
     "webpack": "2.6.1"
   },
   "dependencies": {
-    "react-scripts": "1.1.4",
-    "react-slick": "0.23.1"
+    "react-scripts": "1.1.4"
   }
 }
