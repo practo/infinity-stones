@@ -1,30 +1,23 @@
-var path = require("path");
+var path = require('path');
+ 
 module.exports = {
-  entry: "./src/index.js",
-  resolve: {
-    extensions: [".js", ".jsx", ".json"]
-  },
-  output: {
-    path: path.resolve(__dirname, "build"),
-    filename: "index.js",
-    libraryTarget: "commonjs2"
-  },
-  module: {
-    rules: [
-      {
-        test: /\.jsx?$/,
-        include: path.resolve(__dirname, "src"),
-        exclude: /(node_modules|bower_components|build)/,
-        use: {
-          loader: "babel-loader",
-          options: {
-            presets: ["env"]
-          }
-        }
-      }
-    ]
-  },
-  externals: {
-    'react': 'commonjs react' // this line is just to use the React dependency of our parent-testing-project instead of using our own React.
-  }
+    mode: 'development',
+    entry: './src/index.js',
+    resolve: {
+      extensions: [".js", ".jsx"]
+    },
+    output: {
+        path: path.resolve('build'),
+        filename: 'index.js',
+        libraryTarget: 'commonjs2'
+    },
+    module: {
+        rules: [
+            {
+                test: /\.jsx?$/,
+                exclude: /(node_modules)/,
+                use: 'babel-loader'
+            }
+        ]
+    }
 };

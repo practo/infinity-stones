@@ -1,2 +1,5 @@
 .eslintrc
 .gitignore
+src
+.babelrc
+webpack.config.js

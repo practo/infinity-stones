@@ -1,7 +1,2 @@
-import Fancy from './Providers/fancy';
-import PractoNavbar from './Providers/practoNavbar';
-
-module.exports = {
-  Fancy,
-  PractoNavbar
-};
+export {default as Fancy} from './components/fancy';
+export {default as Textbox} from './components/Textbox';

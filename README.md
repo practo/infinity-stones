@@ -1,2 +1,2 @@
-# react-common-components
-NPM repo to share common react components.
+# infinity stones
+NPM repository to share common react components.

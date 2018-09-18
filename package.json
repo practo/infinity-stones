@@ -1,8 +1,8 @@
 {
-  "name": "react-common-components",
+  "name": "infinity-stones",
   "version": "1.0.0",
-  "description": "Npm package for all react common components",
-  "main": "build/index.js",
+  "description": "Npm package for to share react common components",
+  "main": "./build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --watch",
@@ -12,20 +12,21 @@
   "author": "Sridhar",
   "license": "ISC",
   "peerDependencies": {
-    "react": "15.4.2",
-    "react-dom": "15.4.2"
+    "prop-types": "15.6.2",
+    "react": "16.5.1",
+    "react-dom": "16.5.1"
   },
   "devDependencies": {
-    "babel-cli": "6.26.0",
     "babel-core": "6.26.0",
-    "babel-loader": "7.1.2",
-    "babel-plugin-transform-object-assign": "6.22.0",
-    "babel-plugin-transform-object-rest-spread": "6.23.0",
+    "babel-loader": "7.1.4",
     "babel-preset-env": "1.7.0",
     "babel-preset-react": "6.23.0",
-    "react": "15.4.2",
-    "react-dom": "15.4.2",
-    "webpack": "2.6.1"
+    "babel-preset-stage-0": "6.24.1",
+    "prop-types": "15.6.2",
+    "react": "16.5.1",
+    "react-dom": "16.5.1",
+    "webpack": "4.19.1",
+    "webpack-cli": "3.1.0"
   },
   "dependencies": {
     "react-scripts": "1.1.4"
