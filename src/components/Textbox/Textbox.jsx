@@ -25,7 +25,8 @@ const Textbox = (props) => {
 Textbox.defaultProps = {
   isVisible: true,
   value: '',
-  size: '20'
+  size: '20',
+  qaId: ''
 }
 
 Textbox.propTypes = {
