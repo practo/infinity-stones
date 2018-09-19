@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Textbox = (props) => {
-
+  const {isVisible, qaId} = props;
   if (!isVisible) {
     return null;
   }
@@ -15,7 +15,7 @@ const Textbox = (props) => {
         placeholder={props.placeholder}
         onChange={props.onChange}
         data-qa-id={`${qaId}_input`}
-        disabled={isDisabled}
+        disabled={props.isDisabled}
         size={props.size}
       />
     </div>
