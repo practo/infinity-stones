@@ -9,7 +9,7 @@ module.exports = {
     output: {
         path: path.resolve('build'),
         filename: 'index.js',
-        libraryTarget: 'commonjs2'
+        libraryTarget: 'commonjs2' //sets the "module.exports" property in the output file to your React component which is required for it to be used as an npm package
     },
     module: {
         rules: [
